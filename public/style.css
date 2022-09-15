@@ -1,0 +1,589 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;  
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize; 
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.layar-dalam{
+    width: 1000px;
+    margin: auto;
+}
+
+nav{
+    z-index: 100;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    border-bottom: 1px solid #b1b1b1;
+    line-height: 60px;
+    width: 100%;
+    transition: backgrond-color 0.5s ease;
+}
+
+nav.putih{
+    background-color: #FFF;
+}
+
+nav .logo{
+    float: left;
+    position: relative;
+    line-height: 55px;
+    text-align: center;
+}
+
+nav .logo img{
+    vertical-align: middle;
+    width: 180px;
+}
+
+nav .menu{
+    float: right;
+    height: 60px;
+    max-height: 600px;
+}
+
+nav .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .menu ul li{
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+}
+
+nav ul li a{
+    color: #FFF;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+/*Layar video*/
+.layar-penuh{
+    width: 100%;
+}
+
+/*pengaturan header*/
+header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+
+header .intro{
+    z-index: 100;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+header .intro h3{
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.Tombol{ 
+    background-color: #c86b85;
+    height: 40px;
+    line-height: 42px;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 20px 0px 20px;
+    font-size: 15px;
+    border-radius: 0px;
+}
+
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 50%;
+    z-index: -1;
+}
+
+.Tombol-Menu{
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.Tombol-Menu .garis{
+    height: 3px;
+    background-color: #FFF;
+}
+
+#Visi-Misi{
+    background-size: 60%;
+
+}
+.Visi{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Visi .ringkasan{
+    margin-right: 50px;
+    font-size: 15px;
+    color: #000;
+}
+
+#Visi-Misi h3{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color:black;
+    width: 100%;
+    line-height: 20px;
+}
+
+section h2{
+
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:black;
+    width: 100%;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.Misi .Deskripsi{
+    margin-right: 50px;
+    font-size: 15px;
+    color: #000;
+}
+
+#Visi-Misi h3::after{
+    content:"";
+    border-bottom: 5px solid #c86b85;
+    width: 52px;
+    display: block;
+    margin: 20px auto;
+}
+
+#Visi-Misi{
+    text-align: center;
+}
+
+nav.putih{
+    background-color: #FFF;
+}
+
+nav.putih .Tombol-menu .garis{
+    background-color: #333;
+}
+
+nav.putih ul li a{
+    color: #333;;
+}
+
+nav .anjai{
+    width: 50px;
+    height: 30px;
+    border: 1px solid;
+    line-height: 30px;
+}
+
+nav .anjai ul li{
+width: 20px;
+height: 30px;
+border: 1px solid;
+float: left;
+list-style: none;
+text-align: center;
+}
+
+nav .anjai ul li:hover ul{
+    display: block;
+}
+
+nav .anjai ul li ul {
+    display: none;
+}
+
+nav .anjai ul li ul li{
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+}
+
+/*dropdown
+.dropdown-menu input{
+    width: 1px;
+    height: 1px;
+    display: inline-block;
+    position: absolute;
+    opacity:0.01 ;
+}
+
+.dropdown-menu label{
+    height: 3rem;
+    display: block;
+    border-top: 0.06em solid #d9d9d9;
+    line-height: 3em;
+    padding-left: 1em;
+    padding-right: 3em;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown-menu label:nth-child(2){
+    margin-top: 3em;
+    border-top: 0.06em solid #d9d9d9;
+}
+
+.dropdown-menu a:checked+li{
+    display: block;
+    border-top: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.dropdown-menu input:checked+a:nth-child(2){
+    margin-top: 0;
+    position: relative;
+}
+
+/*Destinasi*/
+/*.container h3{
+    text-align: center;
+    margin-right: 500px;
+}
+.container{
+    max-width: 1200px;
+    margin-left: 500px;
+    padding: 5rem 2rem;
+}
+
+.container .tittle{
+    font-size: 3rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container .product-container{
+    display: inline-blok;
+    gap: 5rem;
+    width: 40%;
+    margin: 10px;
+    text-align: center;
+}
+
+.container .product-container .product{
+    border-radius: 5px;
+    text-align: center;
+    padding: 2rem 2rem;
+    background: #FFF;
+    box-shadow: 0 .1rem 1rem rgba(0,0,0,1);
+    outline: .1rem dolid #ccc;
+    outline-offset: -1.5rem;
+    cursor: pointer;
+}
+
+.container .product-container .product:hover{
+    outline: 1rem solid #222;
+    outline-offset: 0;
+}
+
+.container .product-container .product img{
+    height: 25rem;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+}
+
+.container .product-container .product:hover img{
+    transform: scale(.9);
+}
+
+.container .product-container .product h3{
+    padding: 5rem 0;
+    font-size: 2rem;
+    color: #444;
+}
+
+.container .product-container .product .price{
+    font-size: 2rem;
+    color: #444;
+}*/
+
+/*Destinasi
+#Destinasi{
+    margin: 0 auto;
+    display: inline-flexbox;
+    margin-bottom: 50px;
+    padding: 50px 0px 50px 0px;
+}
+
+#Destinasi h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color:black;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    }
+
+.cards{
+    width: 25%;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 2px;
+    margin-left: 70px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px black;
+    text-align: center; 
+}
+
+.image img{
+    width: 80%;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.tittle{
+    text-align: center;
+    padding: 5px
+}
+
+.des{
+    text-align: center;
+    padding: 4px;
+}
+
+.cards .image:hover img{
+    transform: scale(.9);
+}
+
+.cards .foto:hover img{
+    transform: scale(.9);
+}
+
+.cards .image:hover{
+    outline: 1rem solid #222;
+    outline-offset: 0;
+}
+
+.cards .foto:hover{
+    outline: 1rem solid #222;
+    outline-offset: 0;
+}
+
+.cards.image img{
+    height: 25rem;
+    width: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+}
+
+/*Gallery*/
+#Gallery h3{
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color:black;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*Team*/
+#Team .card{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 10px black;
+}
+
+#Team h5{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/*person*/
+.person{
+    background-color: #dedede;
+    
+}
+
+.person h3{
+text-align: center;
+font-weight: bold;
+font-size: 25px;
+margin-bottom: 30px;
+}
+
+.person p{
+text-align: center;
+margin-bottom: 20px ;
+}
+
+.person a{
+    margin-top: 10px;
+    margin-left: 55em;
+    background-color: #666;
+}
+
+/*Contact*/
+.layar-contact .copyright{
+background-color: #b1b1b1;
+}
+/*Form Login*/
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.h-custom {
+height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+/*Destinasi*/
+.fb-parallax{
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('aset/blog2.jpg');  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contact .h2{
+    font-size: 30px;
+}
+
+/*Team*/
+.fb-parateam{
+    height: 100%; 
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#contact .h2{
+    font-size: 30px;
+}
+/*Team*/
+    #Team h3{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #Team h3::after{
+        content: "";
+        border-bottom: 5px solid #c86b85;
+        width: 52px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #Team h6{
+        align="top";
+    }
+
+@media screen and (max-width: 991.98px) {
+    .layar-dalam{
+        width: 90%;
+    }
+    nav .menu ul{
+        display: none;
+        margin-top: 60px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    nav .menu ul li {
+        width: 50%;
+        border-bottom: 1px solid #ccc;
+        background-color: #FFF;
+        line-height: 40px;
+
+    }
+    nav .menu ul li a{
+        color: #333;
+    }
+    .Tombol-Menu{
+        display: flex;
+    }
+}
+
+a.tbl-biru{
+    background:#666;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #EF5B0C ;
+    text-decoration: none;
+}
