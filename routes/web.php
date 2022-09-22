@@ -25,10 +25,12 @@ Route::get('/Home', function () {
 
 Route::get('/about', function () {
     return view('about');
+
+
 });
 
-Route::get('/blog', function () {
-    return view('blog');
+Route::get('/Blog', function () {
+    return view('Blog');
 });
 
 Route::get('/contact', function () {
@@ -43,8 +45,8 @@ Route::get('/single', function () {
     return view('single');
 });
 
-Route::get('/Login', function () {
-    return view('Login');
+Route::get('/page2', function () {
+    return view('page2');
 });
 
 Route::get('/Chat2', function () {
@@ -60,5 +62,5 @@ Route::get('/upload', function () {
     return view('upload');
 });
 
-// Route::get('/Register', [LoginController::class, 'Register']{  
-// }); 
+/*Route::get('/Register', [LoginController::class, 'Register']{  
+}); */

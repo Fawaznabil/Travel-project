@@ -29,7 +29,6 @@
 	<link rel="stylesheet" href="glightbox.min.css">
 	<link rel="stylesheet" href="/style.css">
 	
-	
 	<title>SalwaTravel &mdash; Free Bootstrap 5 Website Template by Untree.co </title>
 </head>
 <body>
@@ -49,7 +48,7 @@
 			<div class="site-navigation">
 				<div class="row">
 					<div class="col-6 col-lg-3">
-						<a href="index.html" class="logo m-0 float-start"><img src="aset/logo_lengkap_salwa_travel-removebg-preview (1) (1).png"></a>
+						<a href="Home" class="logo m-0 float-start"><img src="aset/logo_lengkap_salwa_travel-removebg-preview (1) (1).png"></a>
 					</div>
 					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
 						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
@@ -71,7 +70,8 @@
 								</ul>
 							</li>
 							<li><a href="/services">Services</a></li>
-							<li><a href="/blog">Blog</a></li>
+
+							<li><a href="/Blog">Blog</a></li>
 
 						</ul>
 					</div>
@@ -721,11 +721,11 @@
 		<script src="flatpickr.js"></script>
 		<script src="glightbox.min.js"></script>
 		<script src="custom.js"></script>
+
 		<script>
 			UPLOADCARE_PUBLIC_KEY = 'demopublickey';
 		  </script>
 		  <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" charset="utf-8"></script>
-		
 	
         
 	</body>

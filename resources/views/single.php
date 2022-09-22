@@ -54,6 +54,7 @@
 					</div>
 					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
 						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
+<<<<<<< HEAD
 							<li class="active"><a href="/Home">Home</a></li>
 							<li><a href="/about">About us</a></li>
 							<li class="has-children">

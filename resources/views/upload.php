@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
  
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +16,5 @@
 <body>
 
 <input type="hidden" role="uploadcare-uploader" name="my_file" />
-
 </body>
 </html>

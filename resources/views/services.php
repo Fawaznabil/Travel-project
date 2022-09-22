@@ -21,8 +21,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="flaticon.css">
 
 	<link rel="stylesheet" href="tiny-slider.css">
 	<link rel="stylesheet" href="aos.css">
@@ -50,6 +50,7 @@
 			<div class="site-navigation">
 				<div class="row">
 					<div class="col-6 col-lg-3">
+<<<<<<< HEAD
 						<a href="index.html" class="logo m-0 float-start">Sterial</a>
 					</div>
 					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
@@ -73,12 +74,36 @@
 							</li>
 							<li><a href="/services">Services</a></li>
 							<li><a href="/blog">Blog</a></li>
+=======
+						<a href="index.html" class="logo m-0 float-start"><img src="aset/logo_lengkap_salwa_travel-removebg-preview (1) (1).png"></a>
+					</div>
+					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
+						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
+							<li><a href="/Home">Home</a></li>
+							<li><a href="/about">About us</a></li>
+							<li class="has-children">
+								<a href="#">Dropdown</a>
+								<ul class="dropdown">
+									<li><a href="#">Menu One</a></li>
+									<li class="has-children">
+										<a href="#">Menu Two</a>
+										<ul class="dropdown">
+											<li><a href="#">Sub Menu One</a></li>
+											<li><a href="#">Sub Menu Two</a></li>
+											<li><a href="#">Sub Menu Three</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Menu Three</a></li>
+								</ul>
+							</li>
+							<li class="active"><a href="/services">Services</a></li>
+							<li><a href="/Blog">Blog</a></li>
 
 						</ul>
 					</div>
 					<div class="col-6 col-lg-3 text-lg-end">
 						<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu ">
-							<li class="cta-button"><a href="contact.html">Contact Us</a></li>
+							<li class="cta-button"><a href="/contact">Contact Us</a></li>
 						</ul>
 
 						<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">

@@ -50,35 +50,36 @@
 			<div class="site-navigation">
 				<div class="row">
 					<div class="col-6 col-lg-3">
-						<a href="index.html" class="logo m-0 float-start">Sterial</a>
+						<a href="Home" class="logo m-0 float-start"><img src="aset/logo_lengkap_salwa_travel-removebg-preview (1) (1).png"></a>
 					</div>
 					<div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
 						<ul class="js-clone-nav  text-center site-menu p-0 m-0">
-							<li class="active"><a href="/Home">Home</a></li>
-							<li><a href="/about">About us</a></li>
+							<li><a href="/Home">Home</a></li>
+							<li class="active"><a href="about">About us</a></li>
 							<li class="has-children">
 								<a href="#">Paket</a>
 								<ul class="dropdown">
-									<li><a href="#">paket</a></li>
+									<li><a href="#">Menu One</a></li>
 									<li class="has-children">
-										<a href="#">Destinasi</a>
+										<a href="#">Menu Two</a>
 										<ul class="dropdown">
-											<li><a href="#">Bromo</a></li>
-											<li><a href="#">Yogyakarta</a></li>
-											<li><a href="#">Bali</a></li>
+											<li><a href="#">Paket</a></li>
+											<li><a href="#">Destinasi</a></li>
+											<li><a href="#">Bis</a></li>
 										</ul>
 									</li>
-									<li><a href="#">Bis</a></li>
+									<li><a href="#">Menu Three</a></li>
 								</ul>
 							</li>
 							<li><a href="/services">Services</a></li>
-							<li><a href="/blog">Blog</a></li>
+							<li><a href="/Blog">Blog</a></li>
 
 						</ul>
 					</div>
 					<div class="col-6 col-lg-3 text-lg-end">
 						<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu ">
-							<li class="cta-button"><a href="contact.html">Contact Us</a></li>
+
+							<li class="cta-button"><a href="/contact">Contact Us</a></li>
 						</ul>
 
 						<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
