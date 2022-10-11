@@ -71,11 +71,12 @@
           </div>
 
           <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="button" class="btn btn-primary btn-lg"
-              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="Register"
+          <a href="/Homekedua" button type="button" class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button></a>
+            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/Register"
               class="link-danger">Register</a></p>
-          </div>
+            <p class="small fw-bold mt-2 pt-1 mb-0">Do you Admin? <a href="/indexA  "
+                class="link-danger">Admin</a></p>
 
         </form>
       </div>
@@ -85,7 +86,7 @@
     class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
     <!-- Copyright -->
     <div class="text-white mb-3 mb-md-0">
-      Copyright © 2022. All rights reserved.
+     SalwaTravel © 2022. All rights reserved.
     </div>
     <!-- Copyright -->
 
